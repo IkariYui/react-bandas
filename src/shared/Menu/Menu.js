@@ -7,31 +7,31 @@ export function Menu(){
 
     return(
 
-        <nav class="navbar navbar-expand-lg menu navbar-dark">
-            <div class="container-fluid">
-                <Link class="navbar-brand" to="">ACRU</Link>
-                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <nav className="navbar navbar-expand-lg menu navbar-dark">
+            <div className="container-fluid">
+                <Link className="navbar-brand" to="">ACRU</Link>
+                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                  </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <Link class="nav-link active" aria-current="page" to="/">Home</Link>
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
+                                <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link" to="historia">Historia</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="historia">Historia</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link" to="integrantes">Integrantes</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="integrantes">Integrantes</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link" to="musica">Musica</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="musica">Musica</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link" to="albumes">Albumes</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="albumes">Albumes</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link" to="mercancia">Mercancia</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="mercancia">Mercancia</Link>
                             </li>
                         </ul>
                     </div>
