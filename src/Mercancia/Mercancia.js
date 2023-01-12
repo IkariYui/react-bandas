@@ -58,7 +58,7 @@ export function Mercancia (){
         <>
         <h1>{titulo}</h1>
         <div className="container">
-            <div className="row row-cols-1 row-cols-md-3 g-5">
+            <div className="row row-cols-1 row-cols-md-3 g-1">
                 {
                     productos.map(function(producto,id){
                         return(

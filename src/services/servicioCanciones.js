@@ -13,7 +13,7 @@ export async function servicioCancionesTop(){
 
     const PETICION ={
         method:"GET",
-        headers:{Authorization:"Bearer BQCH56DtvzDmAtF_dacx0xxLXEYWpIKyaeYNBluXk_n7QwDS8xZme6NPHJbmBZtUcsFuPoAKduMnqQBxp4bkjIz5wf3_ylx1KnxjfVgo3xyXRA42Z43E9P8NfS2wJPqM7QW5BYmWW860RrjkNvb8ZDlDVDA50BxxF5PW23dsJLTB6n3J5gwKTVluTtt6-mc"}
+        headers:{Authorization:"Bearer BQBWe3_BEn_iLBpqDP7kiPuXrDG49j2nNwmoGsFxwL6UfwhB5E2wNAJHjnFwNItsWPORA3FBn4RDNi1c_0ol7X0O7TE_HPgChgG2Mj9I-ouFZA1wpN7h1uEQsMa-hfNQx4lrZTOvae6_didLassrEEtvPT72T6gwFfkqJdNhs_16KokE93BPrt6vmrHjqAg"}
     }
 
     //3. "Vamos al restaurante"
@@ -21,7 +21,7 @@ export async function servicioCancionesTop(){
     let respuesta=await fetch(URL,PETICION)
     let canciones=await respuesta.json()
 
-    console.log(canciones)
+    return canciones
 
 
 }
