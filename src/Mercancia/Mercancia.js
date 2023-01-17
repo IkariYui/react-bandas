@@ -1,4 +1,4 @@
-
+import './Mercancia.css'
 import { useNavigate } from "react-router-dom"
 import { Footer } from "../shared/Footer/Footer"
 

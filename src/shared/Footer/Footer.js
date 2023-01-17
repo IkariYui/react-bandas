@@ -7,7 +7,7 @@ export function Footer (){
             <div className="container-fluid">
                 <div className="row p-5 pie">
                     <div className="col-12 col-md-4 align-self-center">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/cinemajuanguillermocuartas.appspot.com/o/acruLogo.png?alt=media&token=e916d769-0ea2-4c4e-a6f8-fa7fcf0be246" alt="logo" className="img-fluid w-100"></img>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/cinemajuanguillermocuartas.appspot.com/o/acruLogo.png?alt=media&token=e916d769-0ea2-4c4e-a6f8-fa7fcf0be246" alt="logo" className="img-fluid w-100 imagenFooter"></img>
                     </div>
                     <div className="col-12 col-md-4 text-center">
                         <h2 className="fw-bold">Sobre Acru</h2>

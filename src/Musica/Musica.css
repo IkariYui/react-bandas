@@ -1,0 +1,22 @@
+.namecancion{
+    font-size: 22px;
+}
+
+.audio{
+    margin: 10px;
+    width: 90%;
+}
+
+.card{
+    margin: 5px;
+}
+
+.tituloMusica{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.popularity{
+    text-align: center;
+    font-size: 20px;
+}
